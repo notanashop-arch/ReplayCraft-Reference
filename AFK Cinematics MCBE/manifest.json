@@ -1,0 +1,35 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "AFK Cinematics MCBE",
+    "description": "Automatically switches idle players into a cinematic AFK camera mode.",
+    "uuid": "b5e633f7-3e3f-41ae-af62-74523837c9fc",
+    "version": [26, 0, 0],
+    "min_engine_version": [1, 21, 60]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "7634f6ed-0089-4881-bf7f-a7b2c5ea3c03",
+      "version": [26, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "48eafb6c-c1df-417a-8468-901137e70059",
+      "version": [26, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.17.0"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "spunkyinsaan"
+    ]
+  }
+}
