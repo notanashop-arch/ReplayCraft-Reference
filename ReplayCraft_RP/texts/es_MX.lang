@@ -1,0 +1,292 @@
+rc.welcome.message=§f§4[ReplayCraft]§f Escribe /rc:controls en el chat para recibir los palitos de control de ReplayCraft!
+
+##-----------------------------------------------
+##------------- Sección Menú Cinemático (Prefijo 'rc2') -------------
+
+rc2.title.cinematic.menu=§9ReplayCraft [Menú Cinemático] v3.1.5§r
+
+## "cineMainMenu"
+rc2.body.main.menu=Crear/Gestionar Cinemáticas
+rc2.button.create.new.cine=Crear Nueva Cinemática
+rc2.button.load.saved.paths=Cargar Grabaciones Guardadas
+rc2.button.delete.saved.paths=Eliminar Grabaciones Guardadas
+rc2.button.panoramic.cinematic=Cinemática Panorámica
+rc2.button.orbital.cinematic=Cinemática Orbital
+
+##cnameCinematic
+rc2.title.create.new.cine.path=Crear Nueva Grabación Cinemática
+rc2.textfield.name.cine.path=Nombre de Esta Grabación
+
+## loadCinematic
+rc2.lebel.load.cine.path=§l§g- Cargar una Grabación Guardada
+rc2.dropdown.select.cine.path=Seleccionar Grabación
+rc2.button.load=Cargar
+
+## deleteCinematic
+rc2.lebel.delete.cine.path=§l§g- Eliminar una Grabación Guardada
+rc2.button.delete=Eliminar
+rc2.toggle.delete.all=¿Eliminar Todo?
+rc2.toggle.tooltip.this.will.delete.all.cine=Si se activa, todas las grabaciones guardadas serán eliminadas permanentemente!
+
+## "framePlacementMenu"
+rc2.body.create.path=Crea una grabación de cámara/coloca frames!
+rc2.button.add.position.frame=Añadir Frame de Posición
+rc2.button.preview=Vista Previa
+rc2.button.stop.preview=Detener Vista Previa
+rc2.button.manage.frames=Gestionar Frames
+rc2.button.frame.settings=Ajustes de Frames
+rc2.button.reset.frame.settings=Restablecer Ajustes
+rc2.button.next=Siguiente --->>\
+
+## "frameManagementMenu"
+rc2.body.manage.frames=Eliminar/gestionar frames.
+rc2.button.remove.last.frame=Eliminar ��ltimo Frame
+rc2.button.remove.all.frames=Eliminar Todos los Frames
+rc2.button.selective.removal=Eliminación Selectiva
+
+## advancedFrameRemoval
+rc2.title.advanced.frame.removal=Eliminación Avanzada de Frames
+rc2.lebel.selective.removal=§l§g- Eliminación Selectiva de Frames
+rc2.slider.select.a.frame=Seleccionar un frame
+
+## "cameraPlaybackMenu"
+rc2.body.camera-playback=Reproducción y grabación!
+rc2.button.start.camera=Iniciar Cámara
+rc2.button.stop.camera=Detener Cámara
+rc2.button.camera.settings=Ajustes de Cámara
+rc2.button.reset.camera.settings=Restablecer Ajustes
+rc2.button.go.back=<<--- Volver
+
+## "Frame Settings"
+rc2.title.frame.settings=Ajustes de Frames
+rc2.lebel.preview.settings=§l§g- Opciones de Vista Previa
+rc2.slider.preview.speed.multiplier=Multiplicador de Velocidad de Vista Previa
+
+## Camera Settings
+rc2.title.camera.settings=Ajustes de Cámara
+rc2.lebel.easing.settings=§l§g- Opciones de Suavizado
+rc2.dropdown.ease.type=Tipo de Suavizado (Animación de Transición)
+rc2.slider.camspeed=Velocidad de Cámara [bloques/seg]
+rc2.slider.camspeed.multiplier=Multiplicador de Velocidad
+rc2.lebel.camera.speed.options=§l§g- Opciones de Velocidad de Cámara
+rc2.lebel.camera.options=§l§g- Opciones de Cámara
+rc2.lebel.camera.rot.options=§l§g- Opciones de Rotación de Cámara
+rc2.dropdown.camera.facing.type=Tipo de Orientación de Cámara
+rc2.slider.pitch=Inclinación (Rotación en X)
+rc2.slider.yaw=Giro (Rotación en Y)
+rc2.lebel.screen.settings=§l§g- Opciones de Pantalla
+rc2.toggle.hide.hud=Ocultar HUD Durante la Cinemática
+
+## namePanorama
+rc2.title.create.new.pano.cine.path=Crear Nueva Grabación Cinemática Panorámica
+rc2.textfield.name.pano.cine.path=Nombre de la Cinemática Panorámica
+
+## "panoramicCinematic"
+rc2.body.create.panoramic.cine=Crear Cinemáticas Panorámicas
+rc2.button.add.anchor.point=Añadir Punto de Anclaje
+rc2.button.move.anchor.point=Mover Punto de Anclaje
+rc2.button.start.panoramic.cam=Iniciar Cámara Panorámica
+rc2.button.stop.panoramic.cam=Detener Cámara Panorámica
+rc2.button.pano.settings=Ajustes Panorámicos
+
+## panoramaSettings
+rc2.title.pano.settings=Ajustes Panorámicos
+rc2.lebel.pano.rotation=§l§g- Rotación Panorámica
+rc2.slider.pano.rmp=Rotaciones Por Minuto [RPM]
+rc2.dropdown.pano.rotation.type=Tipo de Rotación Panorámica
+rc2.dropdown.value.clockwise=Rotación en Sentido Horario
+rc2.dropdown.value.anticlockwise=Rotación en Sentido Antihorario
+rc2.slider.pano.pitch=Inclinación de Cámara (Dirección Arriba-Abajo)
+
+## nameOrbital
+rc2.title.create.new.orbital.cine.path=Crear Nueva Grabación Cinemática Orbital
+rc2.textfield.name.orbital.cine.path=Nombre de la Cinemática Orbital
+
+## "orbitalCinematic"
+rc2.body.create.orbital.cine=Crear Cinemáticas Orbitales
+rc2.button.add.focus.point=Añadir Punto de Enfoque
+rc2.button.move.focus.point=Mover Punto de Enfoque
+rc2.button.start.orbital.cam=Iniciar Cámara Orbital
+rc2.button.stop.orbital.cam=Detener Cámara Orbital
+rc2.button.orbital.settings=Ajustes Orbitales
+
+## orbitalSettings
+rc2.title.orbital.settings=Ajustes Orbitales
+rc2.lebel.orbital.speed.n.orientation=§l§g- Velocidad y Orientación
+rc2.textfield.orbital.orbitalSpeed=Velocidad de Cámara Orbital [bloques/seg]
+rc2.textfield.orbital.radius=Radio Orbital [Bloques]
+rc2.dropdown.orbital.rotation.type=Tipo de Rotación Orbital
+rc2.slider.orbital.height.offset=Desplazamiento de Altura Orbital
+
+## Mensajes
+rc2.mes.add.cam.frame=§f§4[ReplayCraft] §f§c¡Añade frames de cámara primero!! §r
+rc2.mes.cannot.add.frames.while.camera.is.in.motion=§f§4[ReplayCraft] §f§cNo se pueden añadir frames mientras la cámara está en movimiento§r
+rc2.mes.camera.is.already.moving=§f§4[ReplayCraft] §f§cLa cámara ya está en movimiento §r
+rc2.mes.camera.movement.complete=§f§4[ReplayCraft] §f§aMovimiento de cámara completado §r
+rc2.mes.no.frames.found=§f§4[ReplayCraft] §f§c¡No se encontraron frames de cámara!! §r
+rc2.mes.no.active.camera.movement.to.stop=§f§4[ReplayCraft] §f§cNo hay movimiento de cámara activo para detener §r
+rc2.mes.camera.movement.stopped=§f§4[ReplayCraft] §f§aMovimiento de cámara detenido §r
+rc2.mes.add.more.frames=§f§4[ReplayCraft] §f§cAñade al menos 2 frames de cámara §r
+rc2.mes.cannot.change.settings.while.camera.is.in.motion=§f§4[ReplayCraft] §f§cNo se pueden cambiar los ajustes mientras la cámara está en movimiento§r
+rc2.mes.please.click.submit=§f§4[ReplayCraft] §f§cHaz clic en Enviar
+rc2.mes.settings.have.been.saved.successfully=§f§4[ReplayCraft] §fLos ajustes se han guardado correctamente!
+rc2.mes.cannot.reset.settings.while.camera.is.in.motion=§f§4[ReplayCraft] §f§cNo se pueden restablecer los ajustes mientras la cámara está en movimiento§r
+rc2.mes.all.settings.have.been.reset.to.default=§f§4[ReplayCraft] §fTodos los ajustes han sido restablecidos a los valores predeterminados!
+rc2.mes.cannot.remove.last.frame.while.camera.is.in.motion=§f§4[ReplayCraft] §f§cNo se puede eliminar el último frame mientras la cámara está en movimiento§r
+rc2.mes.no.frames.to.remove=§f§4[ReplayCraft] §f§cNo hay frames para eliminar§r
+rc2.mes.removed.last.frame=§f§4[ReplayCraft] §f��ltimo Frame eliminado
+rc2.mes.cannot.remove.all.frames.while.camera.is.in.motion=§f§4[ReplayCraft] §f§cNo se pueden eliminar todos los frames mientras la cámara está en movimiento§r
+rc2.mes.all.frames.have.been.removed=§f§4[ReplayCraft] §fTodos los frames han sido eliminados.
+rc2.mes.removed.frame.no=§f§4[ReplayCraft] §fFrame eliminado n.°
+rc2.mes.invalid.speed.value=§f§4[ReplayCraft] §f§cValor de velocidad no válido. Escribe solo números positivos (Ej: 0.1, 0.5, 1, 2, 3, etc.)
+rc2.mes.type.a.valid.cine.name=§f§4[ReplayCraft] §f§cEscribe un nombre válido para la nueva Grabación Cinemática
+rc2.mes.no.cine.path.found=§f§4[ReplayCraft] §f§cNo se encontraron Grabaciones Cinemáticas
+rc2.mes.cannot.go.back.while.camera.is.in.motion=§f§4[ReplayCraft] §f§cNo se puede volver mientras la cámara está en movimiento§r
+rc2.mes.cine.deleted=§f§4[ReplayCraft] §f§cGrabación Cinemática eliminada§r
+rc2.mes.all.cine.deleted=§f§4[ReplayCraft] §f§c¡Todas las rutas cinemáticas han sido eliminadas!
+rc2.mes.pano.add.anchor.point=§f§4[ReplayCraft] §f§c¡Añade un Punto de Anclaje primero!
+rc2.mes.pano.add.focus.point=§f§4[ReplayCraft] §f§c¡Añade un Punto de Enfoque primero!
+rc2.mes.invalid.orbital.radius.value=§f§4[ReplayCraft] §f§cValor de radio orbital no válido. Escribe solo números positivos (Ej: 0.1, 0.5, 1, 2, 3, etc.)
+
+
+##-----------------------------------------------
+##------------- Sección Menú de Replay (Prefijo 'rc1') -------------
+rc1.title.replay.menu=§9ReplayCraft [Menú de Replay] v3.1.5§r
+rc1.title.replay.settings=Ajustes de Replay
+rc1.title.preview.settings=Ajustes de Vista Previa
+rc1.title.rc1.settings=§bAjustes de ReplayCraft§r
+rc1.title.multiplayer.settings=§bAjustes Multijugador§r
+
+rc1.body.2a=Grabación: §bDesactivada
+rc1.body.2b=Grabación: §bActiva (En segundo plano)
+rc1.body.2c=Grabación: §bEn pausa
+rc1.body.2d=Grabación: §bGuardada (Desactivada)
+rc1.body.2e=Grabación: §bGuardada (Desactivada)
+rc1.body.2f=Grabación: §bGuardada (Desactivada)
+
+rc1.body.made.by.dbg=Creado por §6DarkBlock Gaming§r
+
+rc1.button.start.recording=Iniciar Grabación
+rc1.button.settings=Ajustes
+rc1.button.multiplayer.settings=Ajustes Multijugador
+rc1.button.important.info=Información Importante [Leer Obligatorio]
+rc1.button.load.session=Cargar una Repetición
+rc1.button.delete.session=Eliminar una Repetición
+
+rc1.button.save.recording=Guardar Grabación
+rc1.button.pause.recording=Pausar Grabación
+rc1.button.cancel.recording=Cancelar Grabación
+
+rc1.button.resume.recording=Reanudar Grabación
+
+rc1.button.preview.replay=Vista Previa del Replay [Cámara Libre]
+rc1.button.stop.preview=Detener Vista Previa
+replaycarft.setskin.button=Configurar Skin
+rc1.button.preview.settings=Ajustes de Vista Previa
+rc1.button.start.camera.setup=Iniciar Configuración de Cámara
+rc1.button.load.existing.camera.points=Cargar Puntos de Cámara Existentes
+rc1.button.save.current.camera.points=Guardar Puntos de Cámara Actuales
+
+rc1.button.load.frame.t=Cargar Frame (Ticks)
+rc1.button.load.frame.s=Cargar Frame (Segundos)
+rc1.button.add.camera.point=Añadir Punto de Cámara
+rc1.button.proceed.further=Continuar
+rc1.button.reset.camera.setup=Restablecer Configuración de Cámara
+
+rc1.button.start.replay=Iniciar Replay
+rc1.button.stop.replay=Detener Replay
+rc1.button.goback.camsetup=Volver (Config. de Cámara)
+rc1.button.load.structure.or.reset=Cargar Estructura o Restablecer
+
+rc1.dropdown.title.replay.type=Tipo de Replay
+rc1.dropdown.title.replay.skin.type=Elegir Skin del Jugador de Replay
+rc1.dropdown.title.replay.skin.type.size=Elegir Tipo de Skin
+rc1.dropdown.title.name.of.replay.player=Nombre del Jugador de Replay
+rc1.textfield.custom.name=Nombre Personalizado
+rc1.dropdown.title.camera.ease.type=Tipo de Suavizado de Cámara
+rc1.dropdown.title.camera.type=Tipo de Cámara
+rc1.dropdown.title.focus.on.player=Enfocar en (Jugador)
+rc1.dropdown.title.affect.camera.of.players=Afectar Cámara de Jugadores
+rc1.slider.title.topdown.cam.height=Altura de Cámara Cenital
+
+rc1.dropdown.title.preview.type=Tipo de Vista Previa
+rc1.dropdown.title.preview.skin.type=Elegir Skin del Jugador de Vista Previa
+rc1.dropdown.title.name.of.preview.player=Nombre del Jugador de Vista Previa
+rc1.textfield.title.custom.name=Nombre Personalizado
+
+rc1.button.load.build.and.Reset=Cargar Construcción y Restablecer
+rc1.button.delete.progress=Eliminar Progreso
+
+rc1.toggle.sound.cues=Señales de Sonido
+rc1.toggle.text.prompts=Indicaciones de Texto
+rc1.dropdown.select.block.placing.sound=Debido a numerosas sugerencias para añadir sonidos de colocación de bloques durante el replay, he implementado esta función. Puedes activarla y, durante el replay o la vista previa, los bloques producirán sonidos.\nActualmente, esta función no es automática y todos los bloques usarán la misma fuente de sonido seleccionada. Sin embargo, haré todo lo posible para implementar sonidos automáticos específicos por bloque en versiones futuras.\n\nSeleccionar Sonido de Colocación de Bloques
+rc1.toggle.block.placing.sound=Sonido de Colocación de Bloques
+rc1.toggle.multiplayer.replay=Replay Multijugador
+rc1.toggle.hide.hud.on.replay=¿Ocultar HUD Durante el Replay?
+
+rc1.mes.thanks=§f§4[ReplayCraft] §f§g¡Gracias por descargar ReplayCraft! ¡Esperamos que lo disfrutes!
+
+rc1.mes.please.load.a.frame.before.adding.camera.point=§f§4[ReplayCraft] §f§cCarga un frame antes de añadir un punto de cámara
+rc1.mes.a.camera.point.already.exists.at.this.tick=§f§4[ReplayCraft] §f§c¡Ya existe un punto de cámara en este tick!
+rc1.mes.no.camera.points.found=§f§4[ReplayCraft] §f§cNo se encontraron puntos de cámara
+rc1.mes.no.camera.points.found.add.atleast.one.camera.point=§f§4[ReplayCraft] §f§cNo se encontraron puntos de cámara, añade al menos uno
+rc1.mes.rec.has.started=§f§4[ReplayCraft] §f§bGrabación iniciada (en segundo plano)
+rc1.mes.rec.resumed.successfully=§f§4[ReplayCraft] §f§bGrabación reanudada correctamente
+rc1.mes.rec.paused.successfully=§f§4[ReplayCraft] §f§bGrabación pausada correctamente
+rc1.mes.rec.saved.successfully=§f§4[ReplayCraft] §f§bGrabación guardada correctamente
+rc1.mes.replay.preview.is.already.on=§f§4[ReplayCraft] §f§cLa vista previa del replay ya está activa. Espera a que termine o detenla
+rc1.mes.replay.preview.has.stopped.successfully=§f§4[ReplayCraft] §fLa vista previa del replay se ha detenido correctamente"
+rc1.mes.replay.preview.is.already.off=§f§4[ReplayCraft] §f§cLa vista previa del replay ya está desactivada
+rc1.mes.please.wait.for.replay.prev.to.be.completed=§f§4[ReplayCraft] §f§cEspera a que la vista previa del replay termine o haz clic en Detener Vista Previa
+rc1.mes.please.do.the.cinematic.camera.setup=§f§4[ReplayCraft] §f§gRealiza la configuración de cámara cinemática
+rc1.mes.cam.setup=§f§4[ReplayCraft] §f§gUsa el bastón de replay para abrir el menú de configuración de cámara.
+rc1.mes.replay.stopped=§f§4[ReplayCraft] §fReplay detenido
+rc1.mes.please.wait.for.replay.to.be.completed=§f§4[ReplayCraft] §f§cEspera a que el replay termine o haz clic en Detener Replay
+rc1.mes.at.least.two.camera.points.are.recommended=§f§4[ReplayCraft] §f§cSe recomiendan al menos dos puntos de cámara
+rc1.mes.replay.is.already.in.progress=§f§4[ReplayCraft] §f§cEl replay ya está en progreso
+rc1.mes.replay.is.already.stopped=§f§4[ReplayCraft] §f§cEl replay ya está detenido
+rc1.mes.please.click.submit=§f§4[ReplayCraft] §f§cHaz clic en Enviar
+rc1.mes.wait.for.replay.preview.end=§f§4[ReplayCraft] §f§cEspera a que termine la vista previa del replay
+rc1.mes.please.wait.for.replay.or.preview.to.be.completed=§f§4[ReplayCraft] §f§cEspera a que el replay/vista previa termine o detenlo
+rc1.mes.interaction.successfull=§f§4[ReplayCraft] §fInteracción correcta
+rc1.mes.no.other.players.available=§f§4[ReplayCraft] §f§cNo hay otros jugadores disponibles.
+rc1.mes.you.have.to.select.multiple.players=§f§4[ReplayCraft] §f§cDebes seleccionar varios jugadores
+rc1.mes.multiplayer.replay.is.off=§f§4[ReplayCraft] §f§aEl replay multijugador está desactivado.
+rc1.mes.you.have.been.teleported.to.camera.point=§f§4[ReplayCraft]§fHas sido teletransportado al punto de cámara. Usa el bastón de Replay para confirmar la nueva ubicación y rotación.
+
+rc1.replay.menu.after.load.title=¿Cómo continuar?
+rc1.replay.menu.after.load=¿Cómo continuar?
+rc1.replay.menu.after.load.button1=Continuar Grabación
+rc1.replay.menu.after.load.button2=Continuar Reproducción en Cámara Libre
+rc1.replay.menu.after.load.button3=Configuración de Cámara
+rc1.load.build.name.title=Ingresar Nombre del Replay
+rc1.load.build.name.textField=¿Nombre del Replay a Cargar?
+rc1.load.build.name.textField2=Ingresa el Nombre de Tu Replay Aquí.
+rc1.set.build.name.title=Establece el Nombre de Tu Replay.
+rc1.set.build.name.textField=Nombre del Replay:
+rc1.set.build.name.textField2=Ingresa el Nombre de Tu Replay Aquí.
+rc1.isactive.message=§f§4[ReplayCraft]§g Está Activo
+rc1.set.build.name.error.message=§f§4[ReplayCraft]§f Debes ingresar un nombre válido para iniciar una nueva sesión de replay.
+replaycraftdeletebuild.title=Elige el replay que deseas eliminar.
+
+rc1.ui.error.message=§f§4[ReplayCraft]§f No seleccionaste una opción o cerraste el menú de interfaz!
+rc1.TimelinePlaybackMenu.title=§9ReplayCraft: Línea de Tiempo / Reproducción
+rc1.ui.back.button=Volver
+rc1.saveloadmenue.title=§9ReplayCraft: Guardar / Cargar
+rc1.recodingcontrolsmenu.title=§9ReplayCraft: Controles de Grabación
+rc1.timelineticks.button=Línea de Tiempo (Ticks)
+rc1.timelineseconds.button=Línea de Tiempo (Segundos)
+rc1.cameramainmenu.body=Selecciona una categoría para continuar:
+rc1.cameramainmenu.title=§9ReplayCraft: Menú Principal de Cámara
+rc1.savaload.button=Guardar / Cargar
+rc1.timelineplayback.button=Línea de Tiempo / Reproducción
+rc1.recordingcontrols.button=Controles de Grabación
+rc1.recordingmenu.title=§9ReplayCraft: Menú de Grabación
+rc1.previewmenu.title=§9ReplayCraft: Menú de Vista Previa
+rc1.replaymenu.title=§9ReplayCraft: Finalizar y Grabar
+rc1.Finalize.Record.body=Selecciona las opciones para finalizar tu replay e iniciar la grabación de pantalla.
+rc1.hardcore.mode.check=§f§4[ReplayCraft]§f No se puede activar el vuelo en modo extremo.
+rc1.new.session.title=§9ReplayCraft: Confirmar Nueva Sesión.
+rc1.new.session.body=Iniciar una nueva sesión impedirá que seas incluido en otros replays. ¿Estás seguro de que deseas continuar?
+rc1.ui.yes.button=Sí
+rc1.ui.no.button=No
